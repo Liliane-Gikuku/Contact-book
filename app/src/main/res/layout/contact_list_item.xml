@@ -6,18 +6,29 @@
     android:layout_height="wrap_content">
 
     <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/cvContact"
         android:layout_width="match_parent"
         android:layout_height="match_parent">
 
-        <ImageView
-            android:id="@+id/imgProfile"
-            android:layout_width="56dp"
-            android:layout_height="52dp"
-            android:layout_marginStart="8dp"
-            android:layout_marginTop="32dp"
-            android:layout_marginEnd="24dp"
-            app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintHorizontal_bias="0.0"
+<!--        <de.hdodenhof.circleimageView.CircleImageView-->
+<!--            android:id="@+id/ivContact"-->
+<!--            android:layout_width="56dp"-->
+<!--            android:layout_height="52dp"-->
+<!--            android:layout_marginStart="8dp"-->
+<!--            android:layout_marginTop="32dp"-->
+<!--            android:layout_marginEnd="24dp"-->
+<!--            app:layout_constraintEnd_toEndOf="parent"-->
+<!--            app:layout_constraintHorizontal_bias="0.0"-->
+<!--            app:layout_constraintStart_toStartOf="parent"-->
+<!--            app:layout_constraintTop_toTopOf="parent"-->
+<!--            app:srcCompat="@drawable/ic_baseline_person_24" -->
+<!--            />-->
+        <de.hdodenhof.circleimageview.CircleImageView
+            android:id="@+id/ivContact"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="16dp"
+            android:layout_marginTop="8dp"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="parent"
             app:srcCompat="@drawable/ic_baseline_person_24" />
@@ -28,11 +39,11 @@
             android:layout_height="wrap_content"
             android:layout_marginStart="8dp"
             android:layout_marginEnd="24dp"
-            tools:text="Serge Mukunzi"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintHorizontal_bias="0.0"
-            app:layout_constraintStart_toEndOf="@+id/imgProfile"
-            app:layout_constraintTop_toTopOf="@+id/imgProfile" />
+            app:layout_constraintStart_toEndOf="@+id/ivContact"
+            app:layout_constraintTop_toTopOf="@+id/ivContact"
+            tools:text="Serge Mukunzi" />
 
         <TextView
             android:id="@+id/tvPhone"
@@ -41,11 +52,11 @@
             android:layout_marginStart="8dp"
             android:layout_marginTop="8dp"
             android:layout_marginEnd="24dp"
-            tools:text="07879664213"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintHorizontal_bias="0.0"
-            app:layout_constraintStart_toEndOf="@+id/imgProfile"
-            app:layout_constraintTop_toBottomOf="@+id/tvName" />
+            app:layout_constraintStart_toEndOf="@+id/ivContact"
+            app:layout_constraintTop_toBottomOf="@+id/tvName"
+            tools:text="07879664213" />
 
         <TextView
             android:id="@+id/tvEmail"
@@ -54,11 +65,11 @@
             android:layout_marginStart="8dp"
             android:layout_marginTop="8dp"
             android:layout_marginEnd="24dp"
-            tools:text="serkunzi@gmail.com"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintHorizontal_bias="0.0"
-            app:layout_constraintStart_toEndOf="@+id/imgProfile"
-            app:layout_constraintTop_toBottomOf="@+id/tvPhone" />
+            app:layout_constraintStart_toEndOf="@+id/ivContact"
+            app:layout_constraintTop_toBottomOf="@+id/tvPhone"
+            tools:text="serkunzi@gmail.com" />
 
         <TextView
             android:id="@+id/tvAddress"
@@ -67,10 +78,10 @@
             android:layout_marginStart="8dp"
             android:layout_marginTop="8dp"
             android:layout_marginEnd="24dp"
-            tools:text="Korongo"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintHorizontal_bias="0.0"
-            app:layout_constraintStart_toEndOf="@+id/imgProfile"
-            app:layout_constraintTop_toBottomOf="@+id/tvEmail" />
+            app:layout_constraintStart_toEndOf="@+id/ivContact"
+            app:layout_constraintTop_toBottomOf="@+id/tvEmail"
+            tools:text="Korongo" />
     </androidx.constraintlayout.widget.ConstraintLayout>
 </androidx.cardview.widget.CardView>

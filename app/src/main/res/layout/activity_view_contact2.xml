@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ViewContactActivity">
+
+<!--    <ImageView-->
+<!--        android:id="@+id/imgProfile"-->
+<!--        android:layout_width="0dp"-->
+<!--        android:layout_height="350dp"-->
+<!--        app:layout_constraintEnd_toEndOf="parent"-->
+<!--        app:layout_constraintHorizontal_bias="0.502"-->
+<!--        app:layout_constraintStart_toStartOf="parent"-->
+<!--        app:layout_constraintTop_toTopOf="parent"-->
+<!--        app:srcCompat="@drawable/img_1" />-->
+
+<!--    <TextView-->
+<!--        android:id="@+id/tvNames"-->
+<!--        android:layout_width="wrap_content"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:layout_marginStart="16dp"-->
+<!--        android:layout_marginTop="24dp"-->
+<!--        android:layout_marginEnd="24dp"-->
+<!--        android:text="Liliane Gikundiro"-->
+<!--        android:textColor="@color/white"-->
+<!--        android:textSize="24sp"-->
+<!--        app:layout_constraintEnd_toEndOf="parent"-->
+<!--        app:layout_constraintHorizontal_bias="0.52"-->
+<!--        app:layout_constraintStart_toStartOf="parent"-->
+<!--        app:layout_constraintTop_toTopOf="@+id/imgProfile" />-->
+
+<!--    <ImageView-->
+<!--        android:id="@+id/imgCall"-->
+<!--        android:layout_width="34dp"-->
+<!--        android:layout_height="33dp"-->
+<!--        android:layout_marginStart="16dp"-->
+<!--        android:layout_marginTop="24dp"-->
+<!--        android:layout_marginEnd="16dp"-->
+<!--        app:layout_constraintEnd_toEndOf="parent"-->
+<!--        app:layout_constraintHorizontal_bias="0.0"-->
+<!--        app:layout_constraintStart_toStartOf="parent"-->
+<!--        app:layout_constraintTop_toBottomOf="@+id/imgProfile"-->
+<!--        app:srcCompat="@drawable/ic_baseline_call_24" />-->
+
+<!--    <TextView-->
+<!--        android:id="@+id/tvCall"-->
+<!--        android:layout_width="wrap_content"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:layout_marginStart="16dp"-->
+<!--        android:layout_marginTop="24dp"-->
+<!--        android:layout_marginEnd="16dp"-->
+<!--        android:text="0787966532"-->
+<!--        app:layout_constraintEnd_toEndOf="parent"-->
+<!--        app:layout_constraintHorizontal_bias="0.15"-->
+<!--        app:layout_constraintStart_toEndOf="@+id/imgCall"-->
+<!--        app:layout_constraintTop_toBottomOf="@+id/imgProfile" />-->
+
+<!--    <TextView-->
+<!--        android:id="@+id/tvMobile"-->
+<!--        android:layout_width="wrap_content"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:layout_marginStart="16dp"-->
+<!--        android:layout_marginTop="8dp"-->
+<!--        android:layout_marginEnd="16dp"-->
+<!--        android:text="Mobile"-->
+<!--        app:layout_constraintEnd_toEndOf="parent"-->
+<!--        app:layout_constraintHorizontal_bias="0.13"-->
+<!--        app:layout_constraintStart_toEndOf="@+id/imgCall"-->
+<!--        app:layout_constraintTop_toBottomOf="@+id/tvCall" />-->
+
+<!--    <ImageView-->
+<!--        android:id="@+id/imgMessage"-->
+<!--        android:layout_width="34dp"-->
+<!--        android:layout_height="33dp"-->
+<!--        android:layout_marginStart="16dp"-->
+<!--        android:layout_marginTop="24dp"-->
+<!--        android:layout_marginEnd="16dp"-->
+<!--        app:layout_constraintEnd_toEndOf="parent"-->
+<!--        app:layout_constraintHorizontal_bias="0.91"-->
+<!--        app:layout_constraintStart_toEndOf="@+id/tvCall"-->
+<!--        app:layout_constraintTop_toBottomOf="@+id/imgProfile"-->
+<!--        app:srcCompat="@drawable/ic_baseline_sms_24" />-->
+</androidx.constraintlayout.widget.ConstraintLayout>
+
+
+
+
+
+
+
+
+
+
+
